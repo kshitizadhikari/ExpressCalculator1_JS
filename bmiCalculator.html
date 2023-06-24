@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>BMI Calculator</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="headerText">
+        <h1>BMI Calculator</h1>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="form">
+        <form action="/bmicalculator" method="post">
+          <div class="form-control">
+            <div class="group">
+              <input required="" type="text" class="input" name="weight" />
+              <span class="highlight"></span>
+              <span class="bar"></span>
+              <label>Weight</label>
+            </div>
+          </div>
+          <div class="form-control">
+            <div class="group">
+              <input required="" type="text" class="input" name="height" />
+              <span class="highlight"></span>
+              <span class="bar"></span>
+              <label>Height</label>
+            </div>
+          </div>
+          <div class="btn">
+            <button type="submit" name="submitBtn">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="footer"></div>
+  </body>
+</html>
